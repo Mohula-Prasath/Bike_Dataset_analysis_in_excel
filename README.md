@@ -3,9 +3,9 @@
 ## Project Overview
 
 This project analyzes customer demographic data to understand the factors influencing bike purchases.
-Using Microsoft Excel, the dataset was cleaned, transformed, and analyzed through pivot tables and an interactive dashboard.
+Using Microsoft Excel, the dataset was cleaned, transformed, and analyzed using pivot tables and an interactive dashboard.
 
-The goal of the analysis is to identify patterns in customer attributes such as age, income, gender, and commute distance that influence bike purchase behavior.
+The objective of this project is to identify patterns in customer attributes such as age, income, gender, and commute distance that influence bike purchasing behavior.
 
 ---
 
@@ -26,30 +26,34 @@ The dataset contains customer demographic information including:
 
 ## Data Preparation
 
-Before analysis, the dataset was cleaned and transformed:
+Before performing the analysis, several data cleaning and transformation steps were carried out:
 
-* Standardized categorical values (e.g., M/F → Male/Female)
-* Standardized marital status values
-* Created a new **Age Bracket** column to group customers into categories
-* Prepared data for pivot table analysis
+* Standardized categorical values (M/F → Male/Female)
+* Standardized marital status values (M/S → Married/Single)
+* Created a new **Age Bracket** column to group customers into categories such as Young Adult, Adult, Middle Age, and Senior
+* Prepared the data for pivot table analysis
 
 ---
 
 ## Dashboard Features
 
-The Excel dashboard includes interactive filters (slicers) and visualizations to explore bike purchasing behavior.
+The Excel dashboard includes interactive filters (slicers) and visualizations that allow users to explore bike purchasing behavior dynamically.
 
-### Filters
+### Interactive Filters
 
-Users can filter the dashboard by:
+The dashboard includes slicers for:
 
 * Marital Status
 * Region
 * Education
 
-### Visualizations
+These filters allow users to explore the data based on different customer demographics.
 
-The dashboard contains the following charts:
+---
+
+## Visualizations Included
+
+The dashboard includes the following charts:
 
 1. **Average Income by Gender and Bike Purchase**
 2. **Bike Purchase Distribution by Age Group**
@@ -60,8 +64,8 @@ The dashboard contains the following charts:
 ## Key Insights
 
 * Customers with higher average income are more likely to purchase bikes.
-* Adult and middle-aged customers show higher bike purchase rates.
-* Shorter commute distances tend to correlate with higher bike purchase likelihood.
+* Adult customers show the highest bike purchase rates compared to other age groups.
+* Customers with shorter commute distances are more likely to purchase bikes.
 * Male customers show slightly higher bike purchase rates compared to female customers.
 
 ---
@@ -71,6 +75,7 @@ The dashboard contains the following charts:
 * Microsoft Excel
 * Pivot Tables
 * Excel Formulas
+* Data Cleaning
 * Data Visualization
 * Interactive Dashboard (Slicers)
 
@@ -78,10 +83,18 @@ The dashboard contains the following charts:
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](dashboard_preview.png)
+
+---
+
+## Project Files
+
+* **Bike dataset analysis raw.xlsx** → Original dataset
+* **Bike dataset analysis.xlsx** → Cleaned dataset and dashboard
+* **dashboard_preview.png** → Dashboard preview image
 
 ---
 
 ## Conclusion
 
-This project demonstrates how Excel can be used for data cleaning, analysis, and dashboard creation to extract meaningful insights from customer data.
+This project demonstrates how Microsoft Excel can be used for data cleaning, analysis, and dashboard creation to extract meaningful insights from customer data.
